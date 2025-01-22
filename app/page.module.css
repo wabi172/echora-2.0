@@ -2,7 +2,6 @@
 /* reset bs */
 .container-fluid {
   margin: 0;
-  padding: 0 76px;
 
   @media screen and (max-width: 576px) {
     padding: 0 28px;

@@ -86,7 +86,7 @@ p {
 /* reset bs */
 .container-fluid {
   margin: 0;
-  padding: 0 76px;
+  padding: 0 ;
 
   @media screen and (max-width: 576px) {
     padding: 0 28px;
@@ -125,25 +125,6 @@ a:link {
   position: relative;
 }
 
-/* @media screen and (max-width:992px) {
-    .g-nav-top form {
-        display: none;
-    }
-} */
-
-/* .g-nav-top form:before {
-  position: absolute;
-  content: '';
-  background: url(./images/search.svg) no-repeat;
-  width: 15px;
-  height: 15px;
-  top: 15px;
-  left: 24px;
-
-  @media screen and (max-width: 992px) {
-    top: 13px;
-  }
-} */
 
 .g-search-field {
   border: 1px solid var(--grey100);
@@ -218,6 +199,8 @@ footer {
   width: 100%;
   padding-inline: 64px;
   padding-top: 1.5rem;
+  padding-bottom: 4rem;
+
 
   ul {
     display: flex;
@@ -312,4 +295,5 @@ footer {
     }
   }
 }
+
 

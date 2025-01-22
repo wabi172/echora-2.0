@@ -1,8 +1,4 @@
-.container-fluid {
-    padding: 0;
-    width: 100%;
-    height: auto;
-}
+
 
 /* 
 *{
@@ -176,4 +172,11 @@
             font-weight: bold;
         }
     }
+}
+
+.aaa{
+    width: 381px;
+    height: 136px;
+    background: #333;
+    padding: 10px;
 }

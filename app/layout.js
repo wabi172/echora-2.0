@@ -36,8 +36,9 @@ export default function RootLayout({ children }) {
       </head>
 
       <body>
-      <nav className="g-header">
   <div className="container-fluid">
+
+      <nav className="g-header">
     <div className="g-nav-top row">
       <div className="g-logo col-lg-4 col-6 order-1 ps-0">
         <img className="g-pc-logo" src="./images/logo.svg" />
@@ -96,9 +97,11 @@ export default function RootLayout({ children }) {
     {/* <form action="" class="col-5">
           <input type="search" class="form-control focus-ring g-search-field" placeholder="搜尋商品關鍵字">
       </form> */}
-  </div>
 </nav>
+  </div>
+
         {children}
+
         <footer>
           <div>
             <ul className="nav justify-content-center d-flex row">
@@ -155,6 +158,7 @@ export default function RootLayout({ children }) {
             </button>
           </div>
         </footer>
+
       </body>
     </html>
   )

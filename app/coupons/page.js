@@ -49,6 +49,9 @@ export default function CouponPage(props){
       <div className="col">
         <img src="./images/Property 1=coupon-b,Property2=default.jpg"  />
       </div>
+      <div className="col aaa" >
+       
+      </div>
     </div>
     <div className="k-btn">
       <button className="btn btn-outline-dark">全部領取</button>
